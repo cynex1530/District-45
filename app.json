@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "District 45",
+    "slug": "district-45",
+    "scheme": "district45",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#1e1e20",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.district45.app"
+    },
+    "android": {
+      "package": "com.district45.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#1e1e20",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
